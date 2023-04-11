@@ -1,0 +1,18 @@
+{
+  "Select themes": "Choisir les thèmes",
+  "{{count}} Theme(s) selected": "{{count}} Thème selectionné",
+  "{{count}} Theme(s) selected_plural": "{{count}} Thèmes selectionnés",
+  "PLAY": "JOUER",
+  "{{count}} words": "{{count}} mot",
+  "{{count}} words_plural": "{{count}} mots",
+  "Put your screen down to start the game": "Met ton écran vers le bas pour commencer le jeu",
+  "SCORE: {{score}}": "SCORE {{score}}",
+  "You score {{score}} !": "tu as marqué {{score}} points !",
+  "You passed {{passed}} words...": "Tu as passé {{passed}} mots...",
+  "Congratulations, you passed no words !": "Félicitation, tu n'as passé aucun mots !",
+  "Try again ?": "Recommencer ?",
+  "Return home": "Retourner à l'accueil",
+  "Popaga !": "Popaga !",
+  "Head Guess": "Devine Tête",
+  "Made by Julien Usson": "Fait par Julien Usson"
+}

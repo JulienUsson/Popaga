@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1024"
+   height="1024"
+   viewBox="0 0 270.93333 270.93333"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="icon.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   inkscape:export-filename="/home/julien/Workspace/pocket-party-games/assets/icon.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     units="px"
+     height="1024px"
+     inkscape:zoom="0.57370932"
+     inkscape:cx="153.38778"
+     inkscape:cy="560.38832"
+     inkscape:window-width="1920"
+     inkscape:window-height="1007"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showguides="false" />
+  <defs
+     id="defs2">
+    <rect
+       x="559.14679"
+       y="672.15085"
+       width="129.38403"
+       height="149.03103"
+       id="rect21599" />
+    <rect
+       x="-2.1936979"
+       y="249.86831"
+       width="1107.8217"
+       height="435.40239"
+       id="rect4544" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#fef2a4;fill-opacity:1;stroke:#000000;stroke-width:0.250371;stroke-opacity:0"
+       id="rect895"
+       width="270.68298"
+       height="270.68295"
+       x="0.14110367"
+       y="0.0082702292" />
+    <text
+       xml:space="preserve"
+       id="text4542"
+       style="font-style:normal;font-weight:normal;font-size:66.1458px;line-height:1.25;font-family:sans-serif;white-space:pre;fill:#5bb98c;fill-opacity:1;stroke:none"
+       transform="translate(10.399071,-13.43477)"><textPath
+         xlink:href="#path18882"
+         id="textPath18964"><tspan
+           id="tspan4546"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:66.1458px;font-family:Caveat;-inkscape-font-specification:Caveat;fill:#5bb98c;fill-opacity:1"><tspan
+   style="font-size:79.375px;fill:#5bb98c;fill-opacity:1"
+   id="tspan38705">Popaga</tspan> !</tspan></textPath></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0"
+       d="m 33.035263,179.55923 c 1.343523,-0.30745 2.744804,-0.42598 4.03057,-0.92236 1.244947,-0.48062 2.302042,-1.35228 3.481001,-1.97753 5.127284,-2.71919 10.926144,-5.17657 15.112011,-9.34038 1.879354,-1.86946 3.308318,-4.14407 5.031941,-6.15801 5.670806,-6.62598 12.249292,-15.03269 20.863361,-17.87327 19.753763,-6.51399 49.331693,0.81125 67.465323,9.16086 5.61003,2.58313 10.91658,5.80487 16.57237,8.28618 12.46402,5.46822 25.93372,10.01889 39.26634,12.78072 3.34996,0.69394 6.77849,0.9331 10.16007,1.45144 5.2251,0.80092 10.41125,1.84827 15.64263,2.60711 13.68694,1.98538 36.80427,6.31705 41.33039,-11.78751"
+       id="path18882" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text21597"
+       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;white-space:pre;shape-inside:url(#rect21599)" />
+  </g>
+</svg>
