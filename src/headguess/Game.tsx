@@ -12,8 +12,7 @@ import { Button, H1, H3, Paragraph, Stack, Theme, XStack } from 'tamagui'
 import { createMachine, assign } from 'xstate'
 
 import { RootStackParamList } from '../Main'
-
-import { useWords } from './db'
+import { useWords } from '../words'
 
 type Route = RouteProp<RootStackParamList, 'headguess.game'>
 type Navigation = NativeStackScreenProps<RootStackParamList, 'headguess.game'>['navigation']

@@ -25,7 +25,8 @@ export default function Home() {
         enterStyle={{ scale: 1.6 }}
         size="$12"
         color="$green9"
-        fontFamily="Caveat_400Regular"
+        // @ts-ignore
+        fontFamily="Caveat"
       >
         {t('Popaga !')}
       </Paragraph>

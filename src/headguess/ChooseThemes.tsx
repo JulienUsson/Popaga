@@ -9,8 +9,7 @@ import { Button, Card, Paragraph, ScrollView, Sheet, Square, Stack, Theme, XStac
 
 import { RootStackParamList } from '../Main'
 import Header from '../ui/Header'
-
-import { useThemes } from './db'
+import { useThemes } from '../words'
 
 type Navigation = NativeStackScreenProps<
   RootStackParamList,
@@ -32,7 +31,7 @@ export default function ChooseThemes() {
       <Header title={t('Select themes')} />
       <ScrollView contentContainerStyle={{ flexGrow: 1 }}>
         <Stack margin="$2" paddingBottom={80} space="$2">
-          {themes.map(({ name, count }) => (
+          {themes.map(([name, count]) => (
             <ThemeSelect
               key={name}
               value={name}
