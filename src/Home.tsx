@@ -1,7 +1,6 @@
 import { useNavigation } from '@react-navigation/native'
 import { NativeStackScreenProps } from '@react-navigation/native-stack'
 import React from 'react'
-import { useTranslation } from 'react-i18next'
 import { Anchor, Button, Paragraph, Stack } from 'tamagui'
 
 import { RootStackParamList } from './Main'
@@ -12,7 +11,6 @@ type Navigation = NativeStackScreenProps<
 >['navigation']
 
 export default function Home() {
-  const { t } = useTranslation()
   const navigation = useNavigation<Navigation>()
 
   return (
@@ -28,15 +26,15 @@ export default function Home() {
         // @ts-ignore
         fontFamily="Caveat"
       >
-        {t('Popaga !')}
+        Popaga !
       </Paragraph>
       <Stack margin="$2" space="$2" flex={1}>
         <Button size="$6" onPress={() => navigation.push('headguess.choose-themes')}>
-          {t('Head Guess')}
+          Devine tête
         </Button>
       </Stack>
       <Anchor textAlign="center" size="$1" href="https://github.com/JulienUsson">
-        {t('Made by Julien Usson')}
+        Crée par Julien Usson
       </Anchor>
     </Stack>
   )

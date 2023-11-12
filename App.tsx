@@ -1,3 +1,4 @@
+import 'date-fns/locale/fr'
 import { NavigationContainer, DefaultTheme } from '@react-navigation/native'
 import { useFonts } from 'expo-font'
 import { StatusBar } from 'expo-status-bar'

@@ -1,9 +1,8 @@
-import './i18n'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import React from 'react'
 
-import HeadguessChooseThemes from './headguess/ChooseThemes'
-import HeadguessGame from './headguess/Game'
+import HeadguessChooseThemes from './features/headguess/ChooseThemes'
+import HeadguessGame from './features/headguess/Game'
 import Home from './Home'
 
 export type RootStackParamList = {
