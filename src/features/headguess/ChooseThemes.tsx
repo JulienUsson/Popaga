@@ -16,7 +16,7 @@ type Navigation = NativeStackScreenProps<
 >['navigation']
 
 export default function ChooseThemes() {
-  const themes = useThemes()
+  const { data: themes } = useThemes()
   const [selectedThemes, { toggle: toggleTheme }] = useSet<string>()
   const navigation = useNavigation<Navigation>()
 
@@ -29,13 +29,12 @@ export default function ChooseThemes() {
       <Header title="Selectionner des thèmes" />
       <ScrollView contentContainerStyle={{ flexGrow: 1 }}>
         <Stack margin="$2" paddingBottom={80} space="$2">
-          {themes.map(([name, count]) => (
+          {themes.map(({ name }) => (
             <ThemeSelect
               key={name}
               value={name}
               isSelected={(value) => selectedThemes.has(value)}
               onSelect={toggleTheme}
-              count={count}
             />
           ))}
         </Stack>
@@ -68,12 +67,11 @@ export default function ChooseThemes() {
 
 interface ThemeSelectProps {
   value: string
-  count: number
   isSelected: (theme: string) => boolean
   onSelect: (theme: string) => void
 }
 
-function ThemeSelect({ value, count, isSelected, onSelect }: ThemeSelectProps) {
+function ThemeSelect({ value, isSelected, onSelect }: ThemeSelectProps) {
   return (
     <Card
       padding="$3"
@@ -95,7 +93,6 @@ function ThemeSelect({ value, count, isSelected, onSelect }: ThemeSelectProps) {
         </Square>
         <Stack>
           <Paragraph size="$8">{upperFirst(value)}</Paragraph>
-          <Paragraph size="$4">{count} mots</Paragraph>
         </Stack>
       </XStack>
     </Card>

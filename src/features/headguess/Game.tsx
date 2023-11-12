@@ -4,8 +4,8 @@ import { useMachine } from '@xstate/react'
 import * as ScreenOrientation from 'expo-screen-orientation'
 import { Accelerometer, AccelerometerMeasurement } from 'expo-sensors'
 import { StatusBar } from 'expo-status-bar'
-import { padStart } from 'lodash'
-import React, { useEffect, useRef } from 'react'
+import _, { padStart } from 'lodash'
+import React, { useEffect, useMemo, useRef } from 'react'
 import { ReactElement } from 'react'
 import { Button, H1, H3, Paragraph, Stack, Theme, XStack } from 'tamagui'
 import { createMachine, assign } from 'xstate'
@@ -20,7 +20,9 @@ export default function Game() {
   useLandscapeOrientation()
   const route = useRoute<Route>()
   const { themes } = route.params
-  const words = useWords(themes)
+  const { data } = useWords(themes)
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  const words = useMemo(() => _.shuffle(data), [data.length > 0])
   const [current, send] = useMachine(gameMachine)
 
   useMovement((event) => {
